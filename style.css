@@ -1,6 +1,5 @@
 body {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", Verdana, sans-serif;
 }
 .header {
   width: 98%;
@@ -15,6 +14,7 @@ body {
 .pagetitle {
   width: 70%;
   margin: auto;
+  padding: 10px;
   font-size: 30px;
 }
 .pagelinks {
@@ -47,6 +47,7 @@ h1 {
   font-size: 30px;
   font-style: italic;
   margin: 0;
+  padding: 20px 15px 15px 15px;
 }
 .divmain {
   height: 80%;
@@ -68,6 +69,7 @@ h1 {
 }
 .description {
   font-size: 22px;
+  padding: 15px 15px 30px 15px;
 }
 footer {
   text-align: center;
@@ -76,8 +78,6 @@ footer {
   background-image: linear-gradient(to right, brown, orange);
   box-shadow: 0 0 3px 3px #f79b07;
   border-radius: 12px;
-}
-.email {
 }
 .main {
   background-color: #78330d;
@@ -93,30 +93,54 @@ footer {
   padding-top: 0px;
 }
 .projectSection {
-  height: 140px;
+  height: 130px;
 }
 .projectName {
-  background-color: gainsboro;
+  background-image: linear-gradient(to right, #f78623, #f79b07);
+  margin-bottom: 0;
 }
-
+.listitem {
+  line-height: 200%;
+}
+.listitem a {
+  color: blueviolet;
+}
 /* about page */
 .hobbySection {
-  height: 120px;
+  height: fit-content;
   border: 2px;
   padding: 10px;
   margin: 5px;
-  background-color: #fab71b;
+  background-color: #f7b51b;
+}
+.moreAboutMe {
+  font-style: italic;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.hobbySaying {
+  font-style: italic;
+  font-weight: bold;
+  color: #78330d;
 }
 .hobbyHeading {
   margin: 0;
 }
-.hobbyDesc {
-}
+
 #gardeningImg,
 #hikingImg,
 #travelingImg {
   float: right;
-  height: 30px;
+  height: 120px;
   width: 200px;
+  top: -33px;
+  position: relative;
   border: 1px solid black;
+}
+.alignCenter {
+  padding-left: 30%;
+  margin: 10px;
+}
+.greenText {
+  color: green;
 }
