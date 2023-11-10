@@ -21,6 +21,7 @@ This website is developed with basic HTML, CSS and java script
 ### Deployed on Netlify
 
 This project is deployed on Netlify. Click here to take a look at the website :
+<https://kalasubramani.netlify.app/portfolio>
 
 ### GitHub Repo
 
