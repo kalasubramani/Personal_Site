@@ -33,14 +33,8 @@ a {
   margin: auto;
   color: #f78623;
   border-radius: 10px;
-  /* add transition effect for links */
-  transition: width 2s, height 4s;
-  transition-timing-function: ease;
 }
 a:hover {
-  /* transition links on mover over */
-  width: 130px;
-  height: 30px;
   background-color: #f79b07;
 }
 a:visited {
