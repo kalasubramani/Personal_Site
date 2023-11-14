@@ -13,6 +13,15 @@ An about page is a place for people to get to know you. This page includes my in
 ## Portfolio Page
 
 The portfolio page is the meat and potatoes of my personal site, here I have included the projects I have worked on. For each project, I have included the name of project, a brief description, a deployed link on Netlify, and a link to GitHub repo
+ 
+ # Contact Page 
+A contact form with the following:
+These specific fields:
+name field
+email field
+message field
+submit button
+when submitted should redirect to another HTML file containing a success message (The form does not need to send a real email when submitted)
 
 ### Tech/Framework used
 

@@ -33,8 +33,14 @@ a {
   margin: auto;
   color: #f78623;
   border-radius: 10px;
+  /* add transition effect for links */
+  transition: width 2s, height 4s;
+  transition-timing-function: ease;
 }
 a:hover {
+  /* transition links on mover over */
+  width: 130px;
+  height: 30px;
   background-color: #f79b07;
 }
 a:visited {
@@ -143,4 +149,75 @@ footer {
 }
 .greenText {
   color: green;
+}
+/* contact page */
+.divmainContactPage {
+  width: 50%;
+  height: 18em;
+  margin: 10% auto;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.formElement {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.formElement > label {
+  width: 20%;
+}
+.formElement > input {
+  width: 70%;
+  height: 2em;
+  border-radius: 8px;
+  border: 0;
+  background-color: bisque;
+}
+.formElement > textarea {
+  width: 70%;
+  height: 6em;
+  border-radius: 8px;
+  border: 0;
+  background-color: bisque;
+}
+.submit {
+  width: 140px;
+  height: 40px;
+  padding: auto;
+  align-self: center;
+  border-radius: 8px;
+  font-weight: bold;
+  border: 3px solid #f78623;
+  background-color: #f7b51b;
+}
+/* nth selector */
+/* Selects the second element of div siblings */
+div:nth-child(3) {
+  font-style: italic;
+}
+/* thank you page */
+.divmainThankyouPage {
+  width: 50%;
+  height: 4em;
+  margin: 10% auto;
+  padding: 1em;
+  text-align: center;
+  font-style: italic;
+}
+/* media queries for large monitors */
+/* media queries for screen width 1300px or more */
+@media only screen and (min-width: 1300px) {
+  body {
+    font-size: large;
+  }
+}
+/* media queries for screen width 700px and less */
+@media only screen and (max-width: 700px) {
+  body {
+    font-size: small;
+  }
 }
