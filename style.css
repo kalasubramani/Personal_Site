@@ -63,7 +63,7 @@ h1 {
   /* background-color: #f79b07; */
   background-color: rgba(247, 155, 7,0.8);
   /* background-color: #f1c378;  */
-  padding-bottom: 80px;
+  padding-bottom: 95px;
   /* #f78623; */
 }
 #quotesImg {
@@ -106,7 +106,7 @@ footer {
   padding-top: 0px;
 }
 .projectSection {
-  height: 130px;
+  height: 150px;
   /* text-align: left; */
 }
 .projectName {
