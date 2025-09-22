@@ -1,128 +1,163 @@
-body {
-  font-family: "Lucida Sans", Verdana, sans-serif;
+html,body {
+    font-family: "Lucida Sans", Verdana, sans-serif;
+    height:100%;
 }
+
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*    position: relative;*/
+}
+
 .header {
     width: 99%;
     height: 80px;
     margin-top: 10px 10px 0px 0px;
-    padding-right:15px;
-    display: flex; 
+    padding-right: 15px;
+    display: flex;
     background-image: linear-gradient(to right, rgba(245,245,220, 0.8), #b95c2a);
     box-shadow: 0 0 3px 3px rgba(245,245,220, 0.8);
     border-radius: 12px;
 }
-.pagetitle {
-  width: 70%;
-  margin: auto;
-  padding: 10px;
-  font-size: 30px;
-}
-.pagelinks {
-  width: 30%;
-  padding: auto;
-  margin: auto;
-  font-size: 20px;
-}
-nav {
-  text-align: center;
-  display: flex;
-  padding: auto;
-  margin: auto;
-}
-a {
-  margin: auto;
-  border-radius: 10px;
+
+footer {
+    text-align: center;
+    font-family: "segoe UI";
+    height: 80px;
+    background-image: linear-gradient(to right, #b95c2a,rgba(245,245,220, 0.8));
+    box-shadow: 0 0 3px 3px rgba(245,245,220, 0.8);
+    border-radius: 12px;
+    bottom: 0;
+    position: relative;
+    padding: 10px;
+    width: 100%;
+    background-color: rgba(245,245,220, 0.8);
 }
 
-a:visited {
-  /* color: #6e371a; */
-}
-h1 {
-  font-size: 3em;
-}
-.interests {
-  font-size: 30px;
-  font-style: italic;
-  margin-top: 10px;
-}
 .divmain {
-    display:flex;
-    flex-direction:column;
-    height:100vh;
+    /*    display: flex;
+    flex-direction: column;
+    height: 100vh;*/
+    flex: 1;
     margin-top: 10px;
     margin-bottom: 5px;
     box-shadow: 0 0 3px 3px rgba(245,245,220, 0.8);
     border-radius: 12px;
     background-color: rgba(245,245,220, 0.8);
+    padding: 0px 10px 50px 10px;
 }
-#quotesImg {
-  float: right;
-  height: 200px;
-  width: 250px;
-  padding: 0px;
-  box-shadow: 10px 10px 10px 13px #f79b07;
-  border-radius: 12px;
+
+.homecontent{
+    padding:10px 0px 10px 0px;
 }
-.description {
-  font-size: 22px;
-  padding: 15px 15px 30px 15px;
+
+.pagetitle {
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    font-size: 30px;
 }
-footer {
+
+.pagelinks {
+    width: 30%;
+    padding: auto;
+    margin: auto;
+    font-size: 20px;
+}
+
+nav {
     text-align: center;
-    font-family: "segoe UI";
-    height: 80px;  
-    background-image: linear-gradient(to right, #b95c2a,rgba(245,245,220, 0.8));
-    box-shadow: 0 0 3px 3px rgba(245,245,220, 0.8);
-    border-radius: 12px;
-    bottom: 0;
-    position: absolute;
-    width: 100%;
-    background-color: rgba(245,245,220, 0.8);
+    display: flex;
+    padding: auto;
+    margin: auto;
 }
-.main {
-  min-height: 100vh;
-  position: relative;
+
+a {
+    margin: auto;
+    border-radius: 10px;
+}
+
+    a:visited {
+        /* color: #6e371a; */
+    }
+
+h1 {
+    font-size: 3em;
+}
+
+.interests {
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 10px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+#quotesImg {
+    float: right;
+    height: 200px;
+    width: 250px;
+    padding: 0px;
+    box-shadow: 10px 10px 10px 13px #f79b07;
+    border-radius: 12px;
+}
+
+.description {
+    font-size: 22px;
+    padding: 15px 15px 30px 15px;
 }
 
 /* portfolio page */
 .projectDesc {
-  float: left;
-  width: 50%;
+    float: left;
+    width: 50%;
 }
+
 .projectList {
-  float: right;
-  width: 40%;
-  padding-top: 0px;
+    float: right;
+    width: 40%;
+    padding-top: 0px;
 }
+
 .projectSection {
-  height: 150px;
+    height: 150px;
+/*    margin-top:5px;*/
+    padding-top:5px;
 }
+
 .projectName {
     background-image: linear-gradient(to right, rgba(245,245,220, 0.8), #b95c2a);
     margin-bottom: 0;
     height: 1.4em;
 }
+
 .listitem {
-  line-height: 200%;
+    line-height: 200%;
 }
-.listitem a {
-  color: blueviolet;
-}
+
+    .listitem a {
+        color: blueviolet;
+    }
 /* about page */
 .hobbySection {
-  height: fit-content;
-  padding: 10px;
-  margin: 5px;
+    height: fit-content;
+    padding: 20px 10px 20px 10px;
+    margin: 5px;
 }
+
 .moreAboutMe {
-  font-style: italic;
-  font-weight: bold;
-  padding-left: 10px;
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-top:5px;
 }
+
 .hobbySaying {
-  font-style: italic;
-  font-weight: bold;
+    font-style: italic;
+    font-weight: bold;
 }
+
 .hobbyHeading {
     margin: 0;
     background-image: linear-gradient(to right, rgba(245,245,220, 0.8), #b95c2a);
@@ -132,84 +167,90 @@ footer {
 #gardeningImg,
 #hikingImg,
 #travelingImg {
-  float: right;
-  height: 120px;
-  width: 200px;
-  position: relative;
-  border-radius: 3px;
+    float: right;
+    height: 120px;
+    width: 200px;
+    position: relative;
+    border-radius: 3px;
 }
+
 .alignCenter {
-  padding-left: 30%;
-  margin: 10px;
+    padding-left: 30%;
+    margin: 10px;
 }
+
 .greenText {
-  color: green;
+    color: green;
 }
 
 /* contact page */
 .divmainContactPage {
-  width: 50%;
-  height: 18em;
-  margin: 10% auto;
-  padding: 2em;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+    width: 50%;
+    height: 18em;
+    margin: 10% auto;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .formElement {
-  width: 80%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-.formElement > label {
-  width: 20%;
-}
-.formElement > input {
-  width: 70%;
-  height: 2em;
-  border-radius: 8px;
-  border: 0;
-  background-color: bisque;
-}
-.formElement > textarea {
-  width: 70%;
-  height: 6em;
-  border-radius: 8px;
-  border: 0;
-  background-color: bisque;
-}
+
+    .formElement > label {
+        width: 20%;
+    }
+
+    .formElement > input {
+        width: 70%;
+        height: 2em;
+        border-radius: 8px;
+        border: 0;
+        background-color: bisque;
+    }
+
+    .formElement > textarea {
+        width: 70%;
+        height: 6em;
+        border-radius: 8px;
+        border: 0;
+        background-color: bisque;
+    }
+
 .submit {
-  width: 140px;
-  height: 40px;
-  padding: auto;
-  align-self: center;
-  border-radius: 8px;
-  font-weight: bold;
-  border: 3px solid #f78623;
-  background-color: #f7b51b;
+    width: 140px;
+    height: 40px;
+    padding: auto;
+    align-self: center;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 3px solid #f78623;
+    background-color: #f7b51b;
 }
 
 /* thank you page */
 .divmainThankyouPage {
-  width: 50%;
-  height: 4em;
-  margin: 10% auto;
-  padding: 1em;
-  text-align: center;
-  font-style: italic;
+    width: 50%;
+    height: 4em;
+    margin: 10% auto;
+    padding: 1em;
+    text-align: center;
+    font-style: italic;
 }
 /* media queries for large monitors */
 /* media queries for screen width 1300px or more */
 @media only screen and (min-width: 1300px) {
-  body {
-    font-size: large;
-  }
+    body {
+        font-size: large;
+    }
 }
 /* media queries for screen width 700px and less */
 @media only screen and (max-width: 700px) {
-  body {
-    font-size: small;
-  }
+    body {
+        font-size: small;
+    }
 }
